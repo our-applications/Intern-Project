@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kingsukh guest house</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <header>
+    <div class="content flex_space">
+      <div class="logo">
+        <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\logo (1).jpg" width= 100, length= 50 alt="">
+      </div>
+      <div class="navlinks">
+        <ul id="menulist">
+          <li><a href="#home">home</a> </li>
+          <li><a href="#about">about</a> </li>
+          <li><a href="#rooms">rooms</a> </li>
+          <li><a href="#gallery">gallery</a> </li>
+          <li><a href="#services">services</a> </li>
+          <li><a href="#contact">contact</a> </li>
+          <li> <i class="fa fa-search"></i> </li>
+          <a href="https://wa.me/919007062180" class="primary-btn">BOOK NOW</a>
+        </ul>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+    </div>
+  </header>
+
+
+  <script>
+    var menulist = document.getElementById('menulist');
+    menulist.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menulist.style.maxHeight == "0px") {
+        menulist.style.maxHeight = "100vh";
+      } else {
+        menulist.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+  <div id="home"></div>
+  <section class="home">
+    <div class="content">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\ayodhya.jpg">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Make Yourself At Home In Our Guest House
+            </p>
+            <div class="flex">
+              <button class="primary-btn">READ MORE</button>
+              <button class="secondary-btn">CONTACT US</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\palash.jpg">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Make Yourself At Home In Our Guest House
+            </p>
+            <div class="flex">
+              <button class="primary-btn">READ MORE</button>
+              <button class="secondary-btn">CONTACT US</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: false,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+    
+  <div id="about"></div>
+  <section class="about top">
+    <div class="container flex">
+      <div class="left">
+        <div class="heading">
+          <h1>WELCOME</h1>
+          <h2>Kingsukh guest house</h2>
+        </div>
+        <p> Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.
+          
+          Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156
+          Contact us: +91 9007062180</p>
+        <button class="primary-btn">ABOUT US</button>
+      </div>
+      <div class="right">
+        <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\out (1).jpg"  width= 500 length=300 alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="counter top">
+    <div class="container grid">
+      <div class="box">
+        <h1>100+</h1>
+        <hr>
+        <span>Customer</span>
+      </div>
+      <div class="box">
+        <h1>150+</h1>
+        <hr>
+        <span> Customer Bookings</span>
+      </div>
+    </div>
+  </section>
+
+  <div id="rooms"></div>
+  <section class="rooms">
+    <div class="container top">
+      <div class="heading">
+        <h1>EXPOLRE</h1>
+        <h2>Our Rooms</h2>
+        <p>
+          The Most Memorable Rest Time Starts Here.
+        </p>
+      </div>
+
+     
+            <div class="items">
+            <div class="image">
+              <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\small (1).jpg" width=450 length=300 alt="">
+            </div>
+            <div class="text">
+              <h2>Cozy Haven Room</h2>
+              <p>Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.
+              </p>
+              <div class="button flex">
+                <a href="https://wa.me/919007062180" class="primary-btn">BOOK NOW</a>
+                <h3>Rs.1000 <span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div class="image">
+              <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\room1 (1).jpg" width="450" length="300" alt="">
+            </div>
+            <div class="text">
+              <h2>Spacious Serenity Suite</h2>
+              <p>Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.
+              </p>
+              <div class="button flex">
+                <a href="https://wa.me/919007062180" class="primary-btn">BOOK NOW</a>
+                <h3>Rs.1500<span> <br> Per Night </span> </h3>
+              </div>
+            </div>
+              
+
+
+   <div id="gallery"></div>
+  <section class="gallery">
+    <div class="container top">
+      <div class="heading">
+        <h1>PHOTOS</h1>
+        <h2>Our Gallery</h2>
+        <p>"Relax in our luxurious Deluxe Room,featuring plush bedding,and stunning city views."
+      </div>
+    </div>
+
+    <div class="content mtop">
+      <div class="owl-carousel owl-carousel1 owl-theme">
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\small (1).jpg" alt="">
+          </div>
+          
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\out (1).jpg" width="200" height="200" alt="">
+          </div>
+          
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\room1 (1).jpg" alt="">
+          </div>
+          
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="c:\Users\namin\Downloads\recep.jpg" alt="">
+          </div>
+          <div class="overlay">
+            <span class="fa fa-plus"> </span>
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\palash.jpg" alt="">
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\mithonDam.jpg" alt="">
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="c:\Users\namin\Downloads\large.jpg" alt="">
+          </div>
+        </div>
+      
+        
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\flower (1).jpg" alt="">
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\baranti.jpg" alt="">
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\ayodhya.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <script>
+    $('.owl-carousel1').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 4,
+        },
+        1000: {
+          items: 6
+        }
+      }
+    })
+  </script>
+
+<div id="services"></div>
+  <section class="services top">
+    <div class="container">
+      <div class="heading">
+        <h1>SERVICES</h1>
+        <h2>Our Services</h2>
+        <p>Strive Only For The Best.
+      </div>
+
+
+      <div class="content flex_space">
+        <div class="left grid2">
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-champagne-glasses"></i>
+              <h3>High Class Security </h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-person  "></i>
+              <h3>24 Hours Rooms Service </h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-utensils"></i>
+              <h3>Restaurant</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-spa"></i>
+              <h3>Tourist Guide Support</h3>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\service (1).jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="contact"></div>
+   <footer>
+    <div class="container grid">
+      <div class="box">
+        <img src="C:\Users\Pavankalyan.pullagur\Documents\Project\logo (1).jpg" width=400 height= 200 alt="">
+        <p>Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary</p>
+        <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Links</h2>
+        <ul>
+          <li>Browse Destinations</li>
+          <li>Special Offers & Packages</li>
+          <li>Room Types & Amenities</li>
+          <li>
+            Customer Reviews & Ratings
+            </li>
+          <li> Travel Tips & Guides</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Contact Us</h2>
+      
+        <i class="fa fa-location-dot"></i>
+        <label>Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156 </label> <br>
+        <i class="fa fa-phone"></i>
+        <label>+91 9007062180</label> <br>
+        <i class="fa fa-envelope"></i> <li><a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></li><br>
+      </div>
+    </div>
+  </footer>
+
+  <div class="legal">
+    <p class="container">Copyright © 2024 Kingsukh Guest House. All rights reserved..</p>
+  </div>
+  <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+
+</script>
+</body>
+
+</html>
